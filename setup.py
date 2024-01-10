@@ -6,11 +6,11 @@ with open("README.md",encoding="utf-8") as f: # encoding="utf-8" is added to avo
 __version__ = "0.0.0" # version of the package
 REPO_NAME="-Text-Summarizer-Project" # name of the repository
 AUTHOR_USER_NAME = "lokesh182"
-SRC_REPO="textSummarizer"
+SRC_REPO="-Text-Summarizer-Project"
 AUTHOR_EMAIL = "lokeshbapte.18@gmail.com"
 
 setuptools.setup(
-    name="SRF_REPO",
+    name="TextSummarizer",
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
